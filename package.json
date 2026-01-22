@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-sonar-demo",
+  "version": "1.0.0",
+  "description": "NodeJS demo app for SonarQube and code coverage",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "express": "^4.19.2"
+  }
+}
